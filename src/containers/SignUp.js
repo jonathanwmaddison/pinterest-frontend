@@ -13,11 +13,12 @@ class SignUp extends Component {
           <div id='middle-container'>
             <img className='pinterest-icon' src={logo} alt='pinterest logo'/>
             <h1 className='input-title'>Welcome to Pinterest</h1>
-            <form>
-              <input />
-              <input />
+            <form id="sign-up-form">
+              <input placeholder='Email' />
+              <input placeholder='Password' />
               <button className='pinterest-button sign-up-button'>Continue</button>
             </form>
+            OR
             <button className='facebook-login sign-up-button'>Log in with Facebook</button>
             <button className='gmail-login sign-up-button'>Continue with Google</button>
           </div>
