@@ -1,0 +1,43 @@
+#sign-up-container {
+  background-image: url("../images/coverpage-grid.jpg");
+  height: 100%;
+  animation: backgroundScroll 20s linear 1;
+  animation-fill-mode: forwards;
+  display: flex;
+  flex-direction: column;
+}
+html, body, #root {
+    height:100%;
+    margin:0;
+}
+#middle-container {
+  background-color: white;
+  margin: auto;
+  text-align: center;
+  border-radius: 10px;
+}
+.input-title {
+  padding: 20px;
+  margin: 0;
+  color: #555555;
+  font-size: 28px;
+  font-family: 'Helvetica Neue', Helvetica, 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', メイリオ, Meiryo, 'ＭＳ Ｐゴシック', arial, sans-serif;
+}
+input {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+.sign-up-button {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+@keyframes backgroundScroll {
+    from {background-position: 0 0;}
+    to {background-position: 0px -180px;}
+}
+.pinterest-icon {
+  width: 50px;
+  padding-top: 25px;
+}
